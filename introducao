@@ -1,7 +1,30 @@
-#include <stdio.h> // comando de inclusão de biblioteca
-#include <stdlib.h> // 
+#include<stdio.h>
+#include<stdlib.h>
 
-int main() {
-  printf("\nHello Word!\n");
-  return 0;
+int main()
+{
+
+// 1 = 2.99; para conhecimento
+float total, total1, produto1, quant;
+printf("\ndigite o código do produto: ");
+scanf("%f", &produto1);
+printf("\nagora digite a quantidade: ");
+scanf("%f", &quant);
+if (produto1 = 1){
+total = total + (2.99 * quant);
+total1 = 2.99 * quant;
+}
+printf("\nAçucar 2.99 x %f : %f", quant, total1);
+printf("\ntotal parcial: %f", total);
+
+/*   
+printf("Hello world!\n");
+   int a = 0;
+   scanf("%i", &a);
+   while(a < 10){
+   scanf("\n%i\n", &a);
+   a = (a + 1);
+printf("\n%i\n", a);
+   }*/
+return 0;
 }
